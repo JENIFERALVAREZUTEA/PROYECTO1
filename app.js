@@ -27,6 +27,7 @@ function addDeleteBtn() {
 
   deleteBtn.textContent = "X";
   deleteBtn.className = "btn-delete";
+  editeBtn.
 
   deleteBtn.addEventListener("click", (e) => {
     const item = e.target.parentElement;
